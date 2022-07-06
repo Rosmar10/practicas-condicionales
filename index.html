@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Condicionales</title>
+</head>
+<body>
+ <!--EJERCICIO 1-->
+    <div class="ejercicio1">
+        <h1>Ejercicio #1</h1>
+        <img class="imagen1" id="imagen" src="assets/img/imagen1.jpeg" alt="" onclick="disteclick()" >
+    </div>
+ 
+ <!--EJERCICIO 2-->
+    <div class="container">
+        <h2>Ejercicio #2</h2>
+
+        <div class="ejercicio2">     
+
+            <div class="ejercicio2-1">
+                <img id="imagen2" class="primera" src="assets/img/imagen2.jpeg" alt="">
+                <input id="valor1" class="one" type="text" value="0">
+            </div>
+
+            <div class="ejercicio2-2">
+                <img id="imagen3" class="segunda" src="assets/img/imagen3.jpeg" alt="">
+                <input id="valor2" class="two" type="text" value="0">
+            </div>
+
+            <div class="ejercicio2-3">
+                <img id="imagen4" class="tercera" src="assets/img/imagen4.png" alt="">
+                <input id="valor3" class="three" type="text" value="0">
+            </div>
+        </div>
+
+        <div>
+            <div id="total1"></div>
+            <button id="boton" onclick="botontotal()" type="button" class="btn btn-outline-secondary">Verificar</button>
+
+        </div>
+    </div>
+
+    <!--EJERCICIO 3-->
+
+    <div class="ejercicio3" id="example3">
+        <h3>Ejercico #3</h3>
+        <h4>Ingresa el password correcto</h4>
+        <div class="ejeclave">
+            <form>
+                <select class="form-select" id="clave1" aria-label="Default select example" >
+                    <option selected>Open this select menu</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select class="form-select" id="clave2" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select class="form-select" id="clave3" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            
+            </form>
+        </div>
+        <div class="botnpassword">
+            <button id="botonclave" onclick="clavecorrecta()" type="button" class="btn btn-outline-secondary">Ingresar</button>
+            <p id="resulpassword"></p>
+        </div>
+    </div>
+ 
+ <script src="assets/js/script.js"></script>
+</body>
+</html>

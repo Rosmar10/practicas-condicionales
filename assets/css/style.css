@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin-top: 5%;
+    color: red;
+}
+
+img{
+    margin-top: 3%;
+}
+
+h2{
+   text-align: center;
+   font-size: 40px;
+   color: red;
+}
+.ejercicio2{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.ejercicio2-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.ejercicio2-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.ejercicio2-3{
+    display: flex;
+    flex-direction: column;
+}
+
+.one{
+    margin-left: 10%;
+    width: 40%;
+}
+
+.two{
+    margin-left: 15%;
+    width: 40%;
+}
+.three{
+    margin-left: 15%;
+    width: 50%;
+}
+.btn{
+   
+    margin-left: 40%;
+    width: 20%;
+    padding: 10px;
+
+}
+
+.container{
+  margin-top: 80px;
+  border-radius: 30%;
+  padding: 20px;
+}
+
+#total1{
+    margin-top: 2%;
+    text-align: center;
+    padding: 5%;
+    color: grey;
+}
+
+/*EJERCICIO 3*/
+h3{
+    text-align: center;
+    margin-top: 10%;
+    color: red;
+    font-size: 250%;
+}
+h4{
+    text-align: center;
+    color: grey;
+}
+.ejeclave{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 30px;
+   
+}
+
+form{
+    display: flex;
+    width: 70%;
+    
+}
+
+#resulpassword{
+    text-align: center;
+    margin: 15px;
+    color: gray;
+}
